@@ -6,8 +6,8 @@ https://www.hiramine.com/programming/onlinebattletanks_nodejs_socketio/index.htm
 の描画処理は、HTML5のCanvas関数を利用しています。  
 このプログラムは、描画処理に、HTML5のCanvas関数を利用する代わりに、WebGLを利用する実装サンプルです。
 
-画像ファイルの描画は、WebGLのテクスチャ描画処理を利用しています。 
-文字については、HTML5のCanvas関数を利用しています。
+画像の描画：WebGLのテクスチャ描画処理を利用しています。  
+文字の描画：HTML5のCanvas関数を利用しています。
 
 ## Screenshots : スクリーンショット
 <img src="_images/Screenshot_01.png" width="256" alt="Screenshot"/> <img src="_images/Screenshot_02.png" width="256" alt="Screenshot"/> 
