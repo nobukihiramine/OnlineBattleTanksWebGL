@@ -1,10 +1,13 @@
 # OnlineBattleTanksWebGL
 オンライン対戦ゲームを作る ( Node.js + Socket.io + WebGL )
 
-オンライン対戦ゲームを作る ( Node.js + Socket.io )
-https://www.hiramine.com/programming/onlinebattletanks_nodejs_socketio/index.html
-のクライアント側の描画は、HTML5のCanvas関数を用いています。
-Canvas関数を用いた描画処理を、WebGLを用いた描画処理に置き換えたサンプル。
+オンライン対戦ゲームを作る ( Node.js + Socket.io ) 
+https://www.hiramine.com/programming/onlinebattletanks_nodejs_socketio/index.html 
+の描画処理は、HTML5のCanvas関数を利用しています。 
+このプログラムは、描画処理に、HTML5のCanvas関数を利用する代わりに、WebGLを利用する実装サンプルです。
+
+画像ファイルの描画は、WebGLのテクスチャ描画処理を利用しています。 
+文字については、HTML5のCanvas関数を利用しています。
 
 ## Screenshots : スクリーンショット
 <img src="_images/Screenshot_01.png" width="256" alt="Screenshot"/> <img src="_images/Screenshot_02.png" width="256" alt="Screenshot"/> 
